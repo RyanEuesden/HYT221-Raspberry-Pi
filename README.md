@@ -37,7 +37,7 @@ To edit the Initial State settings change to the HYT221-Raspberry-Pi directory (
 sudo nano temphumid.py
 ```
 
-Here is where the your Initial State access key is added and any user settings that you wish to alter can be changed in the following lines of code:
+Here is where your Initial State access key is added and any user settings that you wish to alter can be changed within the following lines of code:
 
 ```Python
 # --------- User Settings ---------
