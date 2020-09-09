@@ -27,7 +27,7 @@ The sensor has four pins, SDA, SCL, VCC and GND. These need to be wired to the c
 
 ### Setting up the Script
 
-To download the python code to your raspberry pi go to the terminal and in your desired destination directory type:
+To download the python code to your raspberry pi open the terminal and in your desired destination directory type:
 ```
 sudo git clone https://github.com/RyanCafc/HYT221-Raspberry-Pi.git
 ```
