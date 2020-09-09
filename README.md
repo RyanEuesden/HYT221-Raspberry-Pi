@@ -10,3 +10,4 @@ This is a guide for setting up a temperature and humidity logger that streams th
 * Install Initial state on RPi ([instructions here](https://www.initialstate.com/blog/raspberry-pi-data-logger/))
 * Enable I2C bus on RPi ([instructions here](https://www.raspberrypi-spy.co.uk/2014/11/enabling-the-i2c-interface-on-the-raspberry-pi/#:~:text=Method%201%20%E2%80%93%20Using%20%E2%80%9CRaspi%2Dconfig%E2%80%9D%20on%20Command%20Line&text=Highlight%20the%20%E2%80%9CI2C%E2%80%9D%20option%20and,activate%20%E2%80%9C%E2%80%9D.&text=The%20Raspberry%20Pi%20will%20reboot%20and%20the%20interface%20will%20be%20enabled.))
 ### Wiring the Sensor
+![HYT-221 Pinout](/images/HYT-221Pins.png)
