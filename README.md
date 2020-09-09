@@ -47,3 +47,28 @@ ACCESS_KEY = "INSERT_ACCESS_TOKEN_HERE"
 MINUTES_BETWEEN_READS = 0.1
 # ---------------------------------
 ```
+Once the file is edited with your access key press ctrl-O to save and ctrl-x to exit the editor.
+
+To test the code is working type:
+
+```
+python temphumid.py
+```
+
+and check your Initial State dashboard to confirm receipt of data.
+
+Once this has been confirmed, to run the script automatically on startup type:
+
+```
+crontab -e
+```
+and input the following line
+
+```
+@reboot python /path/to/file/temphumid.py
+```
+For example if the github repositry was cloned to your user's home directory this would be:
+```
+@reboot python ~/HYT221-Raspberry-Pi/temphumid.py
+```
+
