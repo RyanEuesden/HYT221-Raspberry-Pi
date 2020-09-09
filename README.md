@@ -72,5 +72,5 @@ For example if the github repositry was cloned to your user's home directory thi
 ```
 @reboot python ~/HYT221-Raspberry-Pi/temphumid.py
 ```
-Save and reboot using `sudo reboot` and the script should start automatically on startup.
+Save then reboot using `sudo reboot` and the script should start automatically on startup.
 
