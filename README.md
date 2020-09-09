@@ -29,7 +29,7 @@ The sensor has four pins, SDA, SCL, VCC and GND. These need to be wired to the c
 
 To download the python code to your raspberry pi open the terminal and in your desired destination directory type:
 ```
-sudo git clone https://github.com/RyanCafc/HYT221-Raspberry-Pi.git
+sudo git clone https://github.com/RyanEuesden/HYT221-Raspberry-Pi.git
 ```
 
 To edit the Initial State settings change to the HYT221-Raspberry-Pi directory (with `cd HYT221-Raspberry-Pi`) and type:
