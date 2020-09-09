@@ -62,7 +62,7 @@ Once this has been confirmed, to run the script automatically on startup type:
 ```
 crontab -e
 ```
-and input the following line
+and input the following line:
 
 ```
 @reboot python /path/to/file/temphumid.py
@@ -71,4 +71,5 @@ For example if the github repositry was cloned to your user's home directory thi
 ```
 @reboot python ~/HYT221-Raspberry-Pi/temphumid.py
 ```
+Save and reboot using `sudo reboot` and the script should start automatically on startup.
 
