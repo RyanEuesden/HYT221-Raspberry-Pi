@@ -12,9 +12,17 @@ This is a guide for setting up a temperature and humidity logger that streams th
 ### Wiring the Sensor
 The sensor has four pins, SDA, SCL, VCC and GND. These need to be wired to the corresponding GPIO pins on the Raspberry Pi:
 
-<img src="/Images/HYT-221Pins.png" alt="Pinout" width="600" border="5" />
+<p>
+  <kbd><img src="/Images/HYT-221Pins.png" alt="Pinout" width="600" /></kbd>
+  <em>HYT-221 Pinout</em>
+</p>
 
-<img src="/Images/piwiringdiagramhyt.png" alt="RpiScheme" width="400" />
+<p>
+  <kbd><img src="/Images/piwiringdiagramhyt.png" alt="RpiScheme" width="600" /></kbd>
+  <em>Pi Wiring Diagram</em>
+</p>
+
+
 
 ### Adding the Python Code
 
