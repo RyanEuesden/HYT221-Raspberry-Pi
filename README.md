@@ -18,7 +18,7 @@ The sensor has four pins, SDA, SCL, VCC and GND. These need to be wired to the c
 </p>
 
 <p>
-  <kbd><img src="/Images/piwiringdiagramhyt.png" alt="RpiScheme" width="600" /></kbd>
+  <kbd><img src="/Images/piwiringdiagram.png" alt="RpiScheme" width="600" /></kbd>
   <em>Pi Wiring Diagram</em>
 </p>
 
