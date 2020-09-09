@@ -14,7 +14,7 @@ The sensor has four pins, SDA, SCL, VCC and GND. These need to be wired to the c
 
 <img src="/Images/HYT-221Pins.png" alt="drawing" width="400"/>
 
-<img src="/Images/piwiringdiagramhyt.png" alt="drawing" width="400"/>
+<img src="/Images/piwiringdiagramhyt.png" alt="drawing" width="400" heihgt ="100"/>
 
 ### Adding the Python Code
 
