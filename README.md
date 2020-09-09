@@ -62,7 +62,7 @@ Once this has been confirmed, to run the script automatically on startup type:
 ```
 crontab -e
 ```
-and input the following line:
+and input the following line at the end of the file:
 
 ```
 @reboot python /path/to/file/temphumid.py
