@@ -48,7 +48,7 @@ ACCESS_KEY = "INSERT_ACCESS_TOKEN_HERE"
 MINUTES_BETWEEN_READS = 0.1
 # ---------------------------------
 ```
-Once the file is edited with your access key press ctrl-O to save and ctrl-x to exit the editor.
+Once the file is edited with your access key press ctrl-o to save and ctrl-x to exit the editor.
 
 To test the code is working type:
 
