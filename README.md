@@ -31,13 +31,19 @@ To download the python code to your raspberry pi go to the terminal and in your 
 sudo git clone https://github.com/RyanCafc/HYT221-Raspberry-Pi.git
 ```
 
-To edit the Initial State settings change to the HYT221-Raspberry-Pi directory (with `cd HYT221-Raspberry-Pi` and type:
+To edit the Initial State settings change to the HYT221-Raspberry-Pi directory (with `cd HYT221-Raspberry-Pi`) and type:
 ```
 sudo nano temphumid.py
 ```
 
-Here is where the your Initial State access key is added and any settings that you wish to alter can be changed in the following lines of code:
+Here is where the your Initial State access key is added and any user settings that you wish to alter can be changed in the following lines of code:
 
 ```Python
-
+# --------- User Settings ---------
+SENSOR_LOCATION_NAME = "Humidity Monitor" #Can be changed
+BUCKET_NAME = "Humidity Monitor" #Can be changed
+BUCKET_KEY = "temphum1"
+ACCESS_KEY = "INSERT_ACCESS_TOKEN_HERE"
+MINUTES_BETWEEN_READS = 0.1
+# ---------------------------------
 ```
