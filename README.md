@@ -24,9 +24,20 @@ The sensor has four pins, SDA, SCL, VCC and GND. These need to be wired to the c
 
 
 
-### Adding the Python Code
+### Setting up the Script
 
-To download the python code to your raspberry pi go to the terminal and type:
+To download the python code to your raspberry pi go to the terminal and in your desired destination directory type:
 ```
 sudo git clone https://github.com/RyanCafc/HYT221-Raspberry-Pi.git
+```
+
+To edit the Initial State settings change to the HYT221-Raspberry-Pi directory (with `cd HYT221-Raspberry-Pi` and type:
+```
+sudo nano temphumid.py
+```
+
+Here is where the your Initial State access key is added and any settings that you wish to alter can be changed in the following lines of code:
+
+```Python
+
 ```
