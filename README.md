@@ -41,8 +41,8 @@ Here is where your Initial State access key is added and any user settings that 
 
 ```Python
 # --------- User Settings ---------
-SENSOR_LOCATION_NAME = "Humidity Monitor" #Can be changed
-BUCKET_NAME = "Humidity Monitor" #Can be changed
+SENSOR_LOCATION_NAME = "Humidity Monitor" 
+BUCKET_NAME = "Humidity Monitor" 
 BUCKET_KEY = "temphum1"
 ACCESS_KEY = "INSERT_ACCESS_TOKEN_HERE"
 MINUTES_BETWEEN_READS = 0.1
