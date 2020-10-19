@@ -53,10 +53,19 @@ Once the file is edited with your access key press ctrl-o to save and ctrl-x to 
 To test the code is working type:
 
 ```
-python temphumid.py
+sudo nohup python temphumid.py &
+```
+(N.B The & sign is necessary)
+
+Then press ctrl^C to return to terminal
+
+The output data can then be streamed on the terminal by typing
+
+```
+tail -f temphumidrawlog.csv
 ```
 
-and check your Initial State dashboard to confirm receipt of data.
+You can also now check your Initial State dashboard to confirm receipt of data.
 
 Once this has been confirmed, to run the script automatically on startup type:
 
@@ -68,6 +77,12 @@ and input the following line at the end of the file:
 ```
 @reboot python /path/to/file/temphumid.py
 ```
+If you don't know your filepath then type:
+
+```
+readlink -f temphumid.py
+```
+
 For example if the github repositry was cloned to your user's home directory this would be:
 ```
 @reboot python ~/HYT221-Raspberry-Pi/temphumid.py
