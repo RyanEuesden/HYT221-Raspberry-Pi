@@ -55,9 +55,9 @@ To test the code is working type:
 ```
 sudo nohup python temphumid.py &
 ```
-(N.B The & sign is necessary)
 
-Then press ctrl^C to return to terminal
+Then press Ctrl^C to return to terminal.
+
 
 The output data can then be streamed on the terminal by typing
 
