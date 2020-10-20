@@ -46,7 +46,7 @@ def processing_loop(csvfile):
                 # Humidity MSB, Humidity LSB, Temp MSB, Temp LSB
                 data = bus.read_i2c_block_data(0x28, 0, 4)
 
-                # Convert the data to 14-bits
+                # Read data bytes and convert to decimal
                 humidity = ((data[0] & 0x3F) * 256 + data[1]) * (100 / 16383.0)
                 cTemp = ((data[2] * 256 + (data[3] & 0xFC)) / 4) * (165 / 16383.0) - 40
 		
