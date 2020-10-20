@@ -77,7 +77,7 @@ and input the following line at the end of the file:
 ```
 @reboot python /path/to/file/temphumid.py
 ```
-If you don't know your filepath then type:
+If you don't know your filepath then type the following when in the HYT221-Raspberry-Pi directory:
 
 ```
 readlink -f temphumid.py
