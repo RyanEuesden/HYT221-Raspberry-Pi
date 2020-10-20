@@ -44,8 +44,8 @@ Here is where your Initial State access key is added and any user settings that 
 SENSOR_LOCATION_NAME = "Humidity Monitor" 
 BUCKET_NAME = "Humidity Monitor" 
 BUCKET_KEY = "temphum1"
-ACCESS_KEY = "INSERT_ACCESS_TOKEN_HERE"
-MINUTES_BETWEEN_READS = 0.1
+ACCESS_KEY = "Insert_Access_Key_Here"
+MINUTES_BETWEEN_READS = 0.05
 # ---------------------------------
 ```
 Once the file is edited with your access key press ctrl-o to save and ctrl-x to exit the editor.
