@@ -37,7 +37,7 @@ def processing_loop(csvfile):
 
                 # Read data bytes and convert to decimal
                 humidity = ((data[0] & 0x3F) * 0x100 + data[1]) * (100 / 16383.0)
-                cTemp = ((data[2] * 0x100 + (data[3] & 0xFC)) / >> 2) * (165 / 16383.0) - 40
+                cTemp = ((data[2] * 0x100 + (data[3] & 0xFC)) >> 2) * (165 / 16383.0) - 40
 		
 		# Get date and Time
                 Date = time.strftime('%d-%m-%Y')
