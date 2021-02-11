@@ -8,11 +8,10 @@ import os.path
 from ISStreamer.Streamer import Streamer
 
 # --------- User Settings ---------
-SENSOR_LOCATION_NAME = "Humidity Monitor"
 BUCKET_NAME = "Humidity Monitor"
 BUCKET_KEY = "temp1"
 ACCESS_KEY = "inset_access_key_here"
-MINUTES_BETWEEN_READS = 0.05
+MINUTES_BETWEEN_READS = 0.1
 # ---------------------------------
 
 streamer = Streamer(bucket_name=BUCKET_NAME, bucket_key=BUCKET_KEY, access_key=ACCESS_KEY)
@@ -60,8 +59,8 @@ def processing_loop(csvfile):
                 csvfile.flush()
 		
 		# Send data to initial state server
-                streamer.log(SENSOR_LOCATION_NAME + " Temperature(C)", cTemp)
-                streamer.log(SENSOR_LOCATION_NAME + " Humidity (RH)", humidity)
+                streamer.log("Temperature(C)", cTemp)
+                streamer.log("Humidity (RH)", humidity)
                 streamer.flush()
                 time.sleep(60 * MINUTES_BETWEEN_READS)
 
