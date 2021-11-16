@@ -17,7 +17,7 @@ MINUTES_BETWEEN_READS = 0.1
 streamer = Streamer(bucket_name=BUCKET_NAME, bucket_key=BUCKET_KEY, access_key=ACCESS_KEY)
 		
 
-def get_temperature:()
+def get_temperature():
 	 # Get I2C bus
                 bus = smbus.SMBus(1)
                 address = 0x28
@@ -37,7 +37,7 @@ def get_temperature:()
                 cTemp = ((data[2] * 0x100 + (data[3] & 0xFC)) >> 2) * (165 / 16383.0) - 40
 		return cTemp
 
-def get_humidity:()
+def get_humidity():
 	 # Get I2C bus
                 bus = smbus.SMBus(1)
                 address = 0x28
@@ -57,7 +57,7 @@ def get_humidity:()
                 humidity = ((data[0] & 0x3F) * 0x100 + data[1]) * (100 / 16383.0)
 		return humidity 
                 
-def main:()
+def main():
 
 	while True:
 		
